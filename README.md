@@ -1,5 +1,6 @@
 #  ChatbotAI — A Responsive AI Chatbot Web App
 
+Live at https://utkarshydv.github.io/chatbot-ai-website/
 ChatbotAI is a modern, responsive chatbot interface built with HTML, CSS, and JavaScript for the frontend, powered by a Node.js + Express backend that connects to OpenAI’s ChatGPT API (or other providers like OpenRouter). 
 
 It features dark/light theme toggle, animated transitions, suggestion prompts, and a clean, minimalist design — fully deployable on **GitHub Pages** (frontend) and **Render** (backend).
