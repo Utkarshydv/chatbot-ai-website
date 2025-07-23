@@ -20,8 +20,9 @@ It features dark/light theme toggle, animated transitions, suggestion prompts, a
 
 ---
 
+<img width="706" height="842" alt="Screenshot 2025-07-23 at 6 32 43 PM" src="https://github.com/user-attachments/assets/08ea5a3b-1641-4d9b-b1fb-5d5c63da65d6" />
+<img width="681" height="843" alt="Screenshot 2025-07-23 at 6 32 32 PM" src="https://github.com/user-attachments/assets/11dd1cbc-111b-49e6-818f-63188ce56854" />
 
-<img width="710" height="730" alt="Screenshot 2025-07-19 at 4 55 04 AM" src="https://github.com/user-attachments/assets/7b03158b-7395-4a67-8e51-20f3d47b6723" />
-<img width="702" height="733" alt="Screenshot 2025-07-19 at 4 55 25 AM" src="https://github.com/user-attachments/assets/fc96ce53-e9b7-4eaa-854d-68b9a8e961a7" />
+
 
 by Utkarsh
