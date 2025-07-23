@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <main class="chat-wrapper">
+    <header class="top-bar">
+      <div class="left-header">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
+          alt="bot-icon"
+          class="icon large-icon"
+        />
+        <span class="chatbot-title">ChatbotAI</span>
+      </div>
+      <div class="right-header">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+        <button id="reset-btn" title="Clear chat" class="reset-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 4 23 10 17 10" />
+            <polyline points="1 20 1 14 7 14" />
+            <path d="M3.51 9a9 9 0 0114.13-3.36L23 10" />
+            <path d="M20.49 15a9 9 0 01-14.13 3.36L1 14" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="chat-area" id="chat-area">
+      <div class="greeting" id="typing-msg">
+        <div class="greet-hello">Hello,</div>
+        <div class="greet-sub">How can I help you today?</div>
+      </div>
+    </section>
+
+    <div class="suggestions" id="suggestions">
+      <button class="suggestion">Explain the theory of relativity</button>
+      <button class="suggestion">Tell me a funny story</button>
+      <button class="suggestion">Who are you?</button>
+      <button class="suggestion">Give me a riddle</button>
+      <button class="suggestion">What are 5 powerful habits?</button>
+
+    </div>
+
+    <div class="input-wrapper">
+      <form id="chat-form" class="input-inner">
+        <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" required />
+        <button type="submit" aria-label="Send">
+          <svg class="send-icon" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5" />
+            <polyline points="5 12 12 5 19 12" />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <template id="bot-message-template">
+    <div class="message bot-message">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg"
+        alt="bot"
+        class="bot-icon"
+      />
+      <div class="message-content"></div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
