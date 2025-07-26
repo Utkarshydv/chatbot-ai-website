@@ -25,3 +25,6 @@ It features dark/light theme toggle, animated transitions, suggestion prompts, a
 <img width="669" height="821" alt="Screenshot 2025-07-23 at 6 34 44 PM" src="https://github.com/user-attachments/assets/6b9ce626-c7a9-4533-a3dc-0de9793ef096" />
 
 by Utkarsh
+## License
+
+[MIT](LICENSE)
